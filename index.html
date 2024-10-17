@@ -12,11 +12,18 @@
         <h1>Calculatrice</h1>
         <p>Les operations + - / *</p>
         <input id="a" type="number">
-        +
+        <select name="operations" id="operations">
+            <option value="plus">+</option>
+            <option value="moins">-</option>
+            <option value="division">/</option>
+            <option value="multiplication">*</option>
+        </select>
         <input id="b" type="number">
         =
         <span id="result"></span>
-        <button>Valider</button>
+        <p>
+            <button>Valider</button>
+        </p>
     </div>
 
 </body>
